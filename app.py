@@ -1,3 +1,7 @@
+# Step 1: Install necessary system packages
+!apt-get install -y pkg-config libcairo2-dev
+
+# Step 2: Install Python libraries
 !pip install streamlit pyngrok
 
 code = """
